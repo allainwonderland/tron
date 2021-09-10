@@ -12,3 +12,14 @@ To run Main_App.py:
 $ export FLASK_APP=Main_App.py
 
 $ flask run
+
+=== Added by andys:
+Build an image
+        $ sudo docker build --tag rest-api:v1.0 .
+
+Delete all containers
+        $ sudo docker system prune
+
+Delete all images
+        $ sudo docker image prune --all
+
